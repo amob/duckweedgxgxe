@@ -1,0 +1,8 @@
+Provenance instructions for inputs from QIIME2
+
+Files can be dragged and dropped into https://view.qiime2.org/
+Clicking on the "Provenance" tab provides the entire history of the file
+The lowest circle is the file you have dropped.
+Clicking circles gives you the unique identifier for the file that circle represents.
+Clicking squares brings up information about the command that generated that file.
+This includes the input file identifiers, the command and arguments, QIIME2 version, and system information. 

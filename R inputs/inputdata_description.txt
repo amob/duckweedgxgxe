@@ -1,0 +1,75 @@
+inputdata.csv
+metadata
+
+Resulting data and treatments applied for each well in the experiment
+The data are sorted by the ID value for the experimental plate, then by columns and rows within plates.
+
+Columns include:
+
+sqmmE
+This is the area of measured duckweed fronds inside the well at the experiment end.
+It was measured using ImageJ.
+It is converted from pixel area to square millimiters using size markers on the wellplate.
+
+perE
+This is the total perimeter to shapes identified as duckweed fronds inside the well at the experiment end.
+It was measured using ImageJ.
+It is converted from pixels to millimiters using size markers on the wellplate.
+
+areapperE
+This is a ratio: sqmmE/perE
+
+meangray
+This is the average color intensity of shapes identified as duckweed fronds inside the well at the experiment end.
+It was measured using ImageJ.
+
+meanround
+This is the average roundness of shapes identified as duckweed fronds inside the well at the experiment end.
+It was measured using ImageJ.
+
+OD600
+This is the optical density at 600 nm of liquid in experimental wells at the experiment end.
+
+lnOD600
+This is the natural log of OD600
+
+duck
+A one or two letter abbreviation of the site name for the source of the duckweeds.
+A = Arsandco Pond, B = Broken Bridge, Ca = Cambelleville, Ce = Cedarvale Pond, 
+H = Humber Bay Park East, K = Koeffler Scientific Reserve, M = Moccasin Trail
+R = Rattray, U = University of Toronto Mississagua, W = West Duffins
+
+micr
+A one or two letter abbreviation of the site name for the source of the microbial community inoculated
+
+SA
+A numerical vector indicating whether the sources of the microbes (micr) and duckweeds (duck) match
+
+zinc
+An alphanumeric indication of the zinc treatment applied. Either high (H) or low (L)
+
+numzinc
+A numeric version of (zinc): 1 (high) or 0 (low)
+
+plate
+The plate ID number for the well
+
+col
+The column (1-6) for the well in the plate
+
+row
+The row for the well in the plate. A,B,C,D are converted to 1,2,3,4.
+
+x
+The location of the well on the x-axis (in cm), where the x,y origin is the back left corner of the shelf
+
+y
+The location of the well on the y-axis (in mm), where the x,y origin is the back left corner of the shelf
+
+duckNImpv
+The proportion of impervious surface area in 0.5 km radius around the collection site corresponding to the origin of the duckweeds in the well
+1-duckNImpv corresponds to permeable surface area
+
+micrNImpv
+The proportion of impervious surface area in 0.5 km radius around the collection site corresponding to the origin of the microbial community in the well
+1-micrNImpv corresponds to permeable surface area
