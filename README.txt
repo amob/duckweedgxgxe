@@ -2,6 +2,7 @@
 
 This repository contains the input data and analysis scripts for manuscript
 "Evolutionary consequences of microbiomes for hosts: impacts on host fitness, traits, and heritability"
+This repository was archived on October 4th, 2023
 
 Microbiome data was first processed in QIIME2
 The input datafiles are in folder "qiimeinputsGxGxE"
